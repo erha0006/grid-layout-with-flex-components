@@ -29,4 +29,28 @@ body {
 
   /* Continuation to css with my own */
 
-  
+ .emojis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;    
+    row-gap: 2em;
+}
+.emojis {
+    width: 50rem;
+    height: 30rem;
+}
+
+.emoji {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    order: -1;
+}
+.emoji {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    text-align: center;
+}
